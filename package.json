@@ -1,0 +1,11 @@
+{
+  "name": "cap-req",
+  "version": "1.0.0",
+  "description": "log all requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lewis Christie",
+  "license": "ISC"
+}
