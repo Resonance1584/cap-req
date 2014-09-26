@@ -20,10 +20,12 @@ app.use (function(req, res, next) {
     });
 });
 
-app.all('/', function (req, res) {
+app.all('/*', function (req, res) {
   console.log('\n');
   console.log((new Date()).toISOString());
   console.log('\n');
+  console.log(req.method);
+  console.log(req.url);
   console.log(req.headers);
   console.log(req.body);
   res.status(200).end();
